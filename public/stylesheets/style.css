@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900&display=swap');
+
+:root {
+  --gradient: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+  --gradient2: linear-gradient(135deg, #f32d5f 10%, rgb(126, 1, 1) 100%);
+  --bg-color: #343d4b;
+  --bg-color--card: #222831;
+
+  --main-text-color: #ffffff;
+
+  --main-border-radius: 25px;
+  --secondary-border-radius: 15px;
+}
+
+body {
+  padding: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #292929;
+  background-color: var(--bg-color);
+
+}
+
+a {
+  color: #00B7FF;
+  
+}
+ul {
+       margin:0;
+       padding:0;
+       text-align: center;
+       list-style:none;                
+     }
+ ul  li {
+          padding: 2px 5px;               
+        }
+
+            
+.container {
+  padding: 20px;
+  background-color: #efefef;
+  width: 600px;
+  border-radius: 6px;
+  
+}
+.container h3 a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #00AE4D;
+  border-radius: 6px;
+  color: #FFFFFF;
+}
+th, td { width:20px }
+.container h3 a:hover, .container table tr td button:hover {
+  background-color: #78F5AE;
+  color: #222831;
+  cursor: pointer;
+}
+
+.container table {
+  width: 360px;
+}
+
+.container table tr td {
+  padding: 5px;
+}
+
+.container table tr td input, .container table tr td textarea {
+  border: solid 1px #dddddd;
+  padding: 5px 10px;
+  border-radius: 6px;
+  width: 200%;
+  color: #222831;
+}
+
+.container table tr td button {
+  border: none;
+  border-radius: var(--main-border-radius);
+  padding: 0.65rem;
+  background-image: var(--gradient);
+  color: var(--main-text-color);
+  font-weight: 700;
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  line-height: initial;
+  width: 100%;
+}
+
+.container form button {
+  border: none;
+    border-radius: var(--main-border-radius);
+    padding: 0.65rem;
+    background-image: var(--gradient2);
+    color: var(--main-text-color);
+    font-weight: 700;
+    box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    line-height: initial;
+    width: 100%;
+}
+
+.container .list-table {
+  width: 360px;
+  border: solid 2px #DDDDDD;
+  border-spacing: 0;
+}
+
+.container .list-table th {
+  border-bottom: solid 2px #DDDDDD;
+}
+
+footer {
+   position:fixed;
+   right:0px;
+   bottom:0px;
+   text-align: right;
+   height:45px;
+   width:100%;
+   background-image: var(--gradient);
+   color: white;
+   
+    padding: 10px 20px;
+}
+textarea {
+  height:170px ;
+
+}
+
+
+#backButton {
+  border: none;
+    border-radius: var(--main-border-radius);
+    padding: 0.65rem;
+    background-image: var(--gradient);
+    color: var(--main-text-color);
+    font-weight: 700;
+    box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    line-height: initial;
+    width: 100%;
+}
+#backButton:hover{
+  color: var(--main-text-color);
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+#delButton:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+#createButton {
+  border: none;
+  border-radius: var(--main-border-radius);
+  padding: 0.65rem;
+  background-image: var(--gradient);
+  color: var(--main-text-color);
+  font-weight: 700;
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  line-height: initial;
+  width: 100%;
+}
+
+#createButton:hover {
+  color: var(--main-text-color);
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+
+
+
+h1 {
+ font-size: 33px;
+ line-height: 65px;
+ margin:0;
+ font-weight: normal;
+ width:100%;
+ font-family: 'Hammersmith One', sans-serif;
+ text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+ position: fixed;
+ top:0px;
+ right:0px;
+ color: white;
+ text-align:center;
+ background-image: var(--gradient);
+}
+
+h3 {
+
+  color: #333333;
+
+}
